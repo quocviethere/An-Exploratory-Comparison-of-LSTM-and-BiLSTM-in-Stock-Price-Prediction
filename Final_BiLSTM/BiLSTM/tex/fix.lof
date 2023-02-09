@@ -1,0 +1,21 @@
+\babel@toc {english}{}
+\babel@toc {vietnamese}{}
+\babel@toc {vietnamese}{}
+\contentsline {figure}{\numberline {1}{\ignorespaces Apple Inc. Open stock price from 2018 to 2023}}{17}{figure.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Apple Inc. Close stock price from 2018 to 2023}}{18}{figure.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Apple Inc. High stock price from 2018 to 2023}}{18}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Apple Inc. Adjusted Close stock price from 2018 to 2023}}{19}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Apple Inc. stock price volume from 2018 to 2023}}{20}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Apple Inc. Low stock price from 2018 to 2023}}{20}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Correlation heatmap of the dataset}}{22}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces How to determine $X, y$ based on samples of a given data table}}{23}{figure.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Moving average on Apple stock price for 10 days, 20 days, 50 days}}{24}{figure.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Pseudocode of Sliding window algorithm}}{26}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Sigmoid function plot}}{30}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Hyperbolic tangent function plot}}{31}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Rectified Linear Unit (ReLU) function plot}}{33}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces LSTM Cell}}{37}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Pseudocode of Adam optimization algorithm}}{41}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces BiLSTM Architecture}}{42}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Loss on training data (left) and loss on test data (right) after 90 epochs}}{49}{figure.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Actual adjusted closing stock prices (blue) vs. adjusted closing stock prices that are predicted by the model (red)}}{49}{figure.18}%

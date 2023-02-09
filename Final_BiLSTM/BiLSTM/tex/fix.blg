@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: fix.aux
+The style file: apalike.bst
+Database file #1: citation.bib
+Warning--can't use both volume and number fields in maas2013rectifier
+You've used 50 entries,
+            1935 wiz_defined-function locations,
+            772 strings with 13153 characters,
+and the built_in function-call counts, 22019 in all, are:
+= -- 2184
+> -- 919
+< -- 34
++ -- 340
+- -- 310
+* -- 1855
+:= -- 3710
+add.period$ -- 160
+call.type$ -- 50
+change.case$ -- 401
+chr.to.int$ -- 50
+cite$ -- 51
+duplicate$ -- 852
+empty$ -- 1530
+format.name$ -- 384
+if$ -- 4385
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 52
+newline$ -- 253
+num.names$ -- 150
+pop$ -- 376
+preamble$ -- 1
+purify$ -- 403
+quote$ -- 0
+skip$ -- 654
+stack$ -- 0
+substring$ -- 1604
+swap$ -- 164
+text.length$ -- 16
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 294
+warning$ -- 1
+while$ -- 178
+width$ -- 0
+write$ -- 657
+(There was 1 warning)

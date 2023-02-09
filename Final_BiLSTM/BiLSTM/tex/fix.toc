@@ -1,0 +1,40 @@
+\babel@toc {english}{}
+\babel@toc {vietnamese}{}
+\babel@toc {vietnamese}{}
+\contentsline {section}{\numberline {1}Summary of the research}{6}{section.1}%
+\contentsline {section}{\numberline {2}Introduction}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Stock price prediction and its significance}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Background information on the stock market}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Conventional and machine learning techniques in stock price prediction}{9}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Apple Incorporated (Apple Inc.)}{10}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Literature review}{12}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Overview of related works on stock price prediction using machine learning techniques}{12}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Research gaps and Motivation}{14}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Data Preprocessing}{16}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Data collection process}{16}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Explanatory Data Analysis}{20}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Data Normalization}{23}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Sliding Window method}{25}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Model Development}{26}{section.5}%
+\contentsline {subsection}{\numberline {5.1}BiLSTM model for stock price prediction}{27}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Activation functions}{29}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Sigmoid activation function}{29}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Hyperbolic tangent (Tanh) activation function}{30}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}ReLU activation function}{32}{subsubsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.3}Vanishing Gradient}{33}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}LSTM Architecture}{34}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Bidirectional LSTM}{37}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Experiment}{38}{subsection.5.6}%
+\contentsline {subsubsection}{\numberline {5.6.1}Glorot Uniform Initialization}{38}{subsubsection.5.6.1}%
+\contentsline {subsubsection}{\numberline {5.6.2}Adaptive Moment Estimation (Adam) Optimization}{39}{subsubsection.5.6.2}%
+\contentsline {subsubsection}{\numberline {5.6.3}Training Process}{41}{subsubsection.5.6.3}%
+\contentsline {section}{\numberline {6}Model evaluation}{44}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Performance metrics}{44}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Mean Absolute Error, Mean Absolute Percentage Error and Mean Percentage Error}{44}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Mean Squared Error and Root Mean Squared Error}{46}{subsubsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.3}$R^2$ score}{48}{subsubsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.2}Experimental results and Discussion}{49}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Limitations}{51}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Sequential Computation}{51}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Explainability in Artificial Intelligence (AI)}{52}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Conclusions}{52}{section.8}%
