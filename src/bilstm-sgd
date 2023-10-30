@@ -1,0 +1,81 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+
+from keras.models import Sequential
+from keras.layers import Dense, LSTM
+import tensorflow as tf
+
+RANDOM_SEED = 1
+tf.random.set_seed(RANDOM_SEED)
+
+
+DATASET_PATH = "/Users/quocviet/Downloads/An-Exploratory-Comparison-of-LSTM-and-BiLSTM-in-Stock-Price-Prediction/src/AAPL.csv"
+df = pd.read_csv(DATASET_PATH)
+data = df.filter(['Adj Close'])
+dataset = data.values
+training_data_len = int(np.ceil( len(dataset) * .95 ))
+
+# create scaler
+scaler = StandardScaler()
+
+# fit and transform in one step
+scaled_data = scaler.fit_transform(dataset)
+train_data = scaled_data[0:int(training_data_len)]
+
+# Split the data into x_train and y_train data sets
+x_train = []
+y_train = []
+window_size = 60
+
+for i in range(window_size, len(train_data)):
+    x_train.append(train_data[i-window_size:i, 0])
+    y_train.append(train_data[i, 0])
+    '''
+    if i<= window_size + 1:
+        print('x_train',x_train)
+        print('\ny_train',y_train)
+        print()
+    '''
+        
+# Convert the x_train and y_train to numpy arrays 
+x_train, y_train = np.array(x_train), np.array(y_train)
+
+# Reshape the data
+x_train = np.reshape(x_train, (x_train.shape[0], x_train.shape[1], 1))
+
+def build_model():
+    input = tf.keras.layers.Input(shape=(x_train.shape[1], 1), name ="input"
+    )
+    x = tf.keras.layers.Bidirectional(LSTM(128, 
+                                           return_sequences=True,
+                                           kernel_initializer=tf.initializers.GlorotUniform(seed=RANDOM_SEED)))(input)
+    
+    x = tf.keras.layers.Bidirectional(LSTM(64, 
+                                           return_sequences=False,
+                                           kernel_initializer=tf.initializers.GlorotUniform(seed=RANDOM_SEED)))(x)
+    
+    x = tf.keras.layers.Dense(32 , activation="tanh", name ="dense_1")(x)
+    
+    output = tf.keras.layers.Dense(1, name="last_dense")(x)
+               
+    model = tf.keras.Model(inputs=input, outputs=output)
+    
+    return model
+
+model = build_model()
+
+epochs = 50
+batch_size = 64
+
+# Compile the model
+for opt in ['SGD',"RMSProp","Adam"]:
+    model.compile(optimizer=opt, loss='mean_squared_error')
+
+    # Train the model
+    print(f"Training BiLSTM using {opt}.")
+    history = model.fit(x_train, y_train, batch_size=batch_size, epochs=epochs)

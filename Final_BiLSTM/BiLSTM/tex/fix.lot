@@ -1,7 +1,0 @@
-\babel@toc {english}{}
-\babel@toc {vietnamese}{}
-\babel@toc {vietnamese}{}
-\contentsline {table}{\numberline {1}{\ignorespaces The first ten rows of the Apple stock price dataset.}}{21}{table.1}%
-\contentsline {table}{\numberline {2}{\ignorespaces Comparison of different optimization methods}}{50}{table.2}%
-\contentsline {table}{\numberline {3}{\ignorespaces Comparison of BiLSTM with different activation functions}}{50}{table.3}%
-\contentsline {table}{\numberline {4}{\ignorespaces Comparison of BiLSTM and other models}}{51}{table.4}%
