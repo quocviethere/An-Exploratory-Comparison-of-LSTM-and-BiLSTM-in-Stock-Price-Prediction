@@ -31,7 +31,7 @@ Using Adam Optimization and ReLU activation function, we yielded the results as 
 
 We further investigate the performance of BiLSTM with different activation functions:
 
-|  Activation functions   | RMSE   | MPE    | MAPE   | MSE    | MAE    | $R^2$ score |
+|  Activation function   | RMSE   | MPE    | MAPE   | MSE    | MAE    | $R^2$ score |
 |---------|--------|--------|--------|--------|--------|----------|
 | ReLU    | 3.4927 | 0.0028 | 0.0182 | 12.1992 | 2.7009 | 0.8969   |
 | Tanh    | 3.5385 | 0.0038 | 0.0185 | 12.5210 | 2.7445 | 0.8942   |
@@ -39,7 +39,7 @@ We further investigate the performance of BiLSTM with different activation funct
 
 and optimization methods:
 
-| Optimization methods | RMSE   | MPE     | MAPE   | MSE    | MAE    | $R^2$ score |
+| Optimizer | RMSE   | MPE     | MAPE   | MSE    | MAE    | $R^2$ score |
 |----------|--------|--------|--------|--------|--------|----------|
 | Adam     | 3.4927 | 0.0028 | 0.0182 | 12.1992 | 2.7009 | 0.8969   |
 | RMSprop  | 3.7757 | 0.0108 | 0.0205 | 14.2565 | 3.0363 | 0.8795   |
