@@ -15,7 +15,7 @@ git clone https://github.com/quocviethere/An-Exploratory-Comparison-of-LSTM-and-
 Then simply run whichever model provided:
 
 ```
-python bilstm-af.py
+python src/bilstm-af.py
 ```
 
 # Results
