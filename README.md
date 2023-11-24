@@ -48,3 +48,27 @@ and optimization methods:
 
 # Acknowledgement:
 This research is funded by University of Economics Ho Chi Minh City (UEH), Vietnam.
+
+---
+To cite our paper, please use:
+
+```
+@InProceedings{10.1007/978-981-99-5166-6_35,
+author="Viet, Nguyen Q.
+and Quang, Nguyen N.
+and King, Nguyen
+and Huu, Dinh T.
+and Toan, Nguyen D.
+and Thanh, Dang N. H.",
+editor="Ranganathan, G.
+and Papakostas, George A.
+and Rocha, {\'A}lvaro",
+title="An Exploratory Comparison of LSTM and BiLSTM in Stock Price Prediction",
+booktitle="Inventive Communication and Computational Technologies",
+year="2023",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="513--524",
+isbn="978-981-99-5166-6"
+}
+```
