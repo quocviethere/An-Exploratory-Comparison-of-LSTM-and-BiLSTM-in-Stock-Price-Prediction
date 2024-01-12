@@ -52,7 +52,7 @@ This research is funded by University of Economics Ho Chi Minh City (UEH), Vietn
 ---
 To cite our paper, please use:
 
-```
+```bibtex
 @InProceedings{10.1007/978-981-99-5166-6_35,
 author="Viet, Nguyen Q.
 and Quang, Nguyen N.
